@@ -16,8 +16,6 @@
 </template>
 
 <script>
-import { SlideYUpTransition } from 'vue2-transitions'
-
 export default {
   name: 'TransitioningNumber',
   props: {
@@ -56,9 +54,6 @@ export default {
     setTimeout(() => {
       this.currentValue = this.endValue
     }, 1)
-  },
-  components: {
-    SlideYUpTransition
   }
 }
 </script>
