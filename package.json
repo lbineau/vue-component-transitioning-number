@@ -1,9 +1,11 @@
 {
   "name": "vue-component-transitioning-number",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/transitioning-number.umd.cjs",
   "module": "./dist/transitioning-number.js",
   "exports": {
@@ -21,8 +23,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "sass": "^1.69.5",
-    "vite": "^4.4.5"
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.2"
   }
 }
